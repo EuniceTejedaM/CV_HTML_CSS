@@ -1,0 +1,78 @@
+/* Estilo general para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Encabezado */
+h2 {
+    text-align: center;
+    color: #6A4C9C; /* Color para el encabezado */
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para la tabla */
+}
+
+/* Estilos para las celdas de la tabla */
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px 20px;
+    text-align: left;
+    font-size: 16px;
+}
+
+/* Estilo para los encabezados */
+th {
+    background-color: #8a63c8;
+    color: white;
+    font-weight: bold;
+}
+
+/* Fila de turno */
+.turno {
+    background-color: #e8e8e8;
+    font-weight: bold;
+    color: #6A4C9C;
+}
+
+/* Colores de fondo alternados en las filas */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Efecto al pasar el ratón sobre las filas */
+tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Asegurar que los títulos de las columnas se ajusten */
+td, th {
+    text-align: center;
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 10px 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
